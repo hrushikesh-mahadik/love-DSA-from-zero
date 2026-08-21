@@ -8,10 +8,11 @@ public class StudentHashset {
 
         Student s1 = new Student(1, "Vishu");
         Student s2 = new Student(2,"Rishi");
-
+        Student s3 = new Student(1, "Vishu");
 
         set.add(s2);
         set.add(s1);
+        set.add(s3);
         System.out.println(set);
     }
 }
